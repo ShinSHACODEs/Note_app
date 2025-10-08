@@ -6,4 +6,6 @@ part 'note_model.g.dart';
 class NoteModel {
   Id id = Isar.autoIncrement;
   late String text;
+
+  String? get noteTxt => null;
 }
