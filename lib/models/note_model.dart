@@ -4,8 +4,6 @@ part 'note_model.g.dart';
 
 @collection
 class NoteModel {
-  Id id = Isar.autoIncrement;
+  Id id = Isar.autoIncrement; // you can also use id = null to auto increment
   late String text;
-
-  String? get noteTxt => null;
 }
